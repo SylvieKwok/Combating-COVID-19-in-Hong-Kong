@@ -1,0 +1,90 @@
+
+.nav_header{
+    display: inline;
+}
+
+a:link{color:#f7eaea;}
+
+/**
+.email{
+    display:none;
+}**/
+
+.p2 {
+    width: 50%;
+}
+
+.p3{
+    width: 50%;
+}
+
+body {
+    background-image:url(Backgrounddd.png)
+}
+
+header {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    background-color: rgba(255, 255, 255, 0.0);
+ 
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+
+main {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    background-color: rgb(247, 216, 156);
+    display: grid; 
+    grid-template-columns: 1.3fr 9.7fr ; 
+    grid-gap:15px;
+    
+}
+
+nav {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    background: rgb(155, 173, 136);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+  
+article {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 0.54cm;
+    background-color: rgb(243, 172, 130);
+    display: grid;
+    grid-template-columns: 2.5fr 4fr 3.5fr; 
+    grid-gap:20px;
+    /*border: 10px solid green;*/
+    padding: 1%;
+    margin: 30px*
+}
+  
+footer {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    background-color: rgb(226, 131, 128);
+    padding: 0.01cm;
+}
+
+h1 {
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    margin:auto;
+}
+
+.round{
+    border-radius: 200px;
+}
+
+section{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    background-color: rgba(173, 196, 196, 0.952);
+    margin: 40px
+ 
+  }
+
+  .image3:hover{
+    transform: scale(1.2);
+}
+
+.image1:hover{
+    transform: scale(1.5);
+}
